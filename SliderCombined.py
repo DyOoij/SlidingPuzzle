@@ -33,7 +33,7 @@ EDGE = [1,2,3,4]
 RookImage = pygame.transform.scale(pygame.image.load('Rook2Updated.png'), (RookVertex ,RookVertex))
 RookBackup = RookImage.copy()
 GridImage = pygame.transform.scale(pygame.image.load('BgUpdated.png'), (WIDTH, HEIGHT))
-font = pygame.font.Font('Enchant.otf', RookVertex * 2)
+#font = pygame.font.Font('Enchant.otf', RookVertex * 2)
 textY, textX = int(RookVertex/3), (RookVertex * 9)
 
 
